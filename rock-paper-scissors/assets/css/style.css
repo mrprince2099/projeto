@@ -1,3 +1,4 @@
+/* Importar fonte do Google - Audiowide */
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 :root{
@@ -72,7 +73,7 @@ body {
 }
 
 .bot_result img {
-  transform: rotate(0deg) rotateY(180deg);
+  transform: rotate(-0deg) rotateY(180deg);
 }
 
 .result {
@@ -84,6 +85,7 @@ body {
 
 .option_image img {
   width: 50px;
+  transform: rotate(-0deg) rotateZ(-90deg);
 }
 
 .option_images {
@@ -116,7 +118,7 @@ body {
 }
 
 .option_image img {
- pointer-events: none;
+  pointer-events: none;
 }
 
 .option_image p {
@@ -126,6 +128,7 @@ body {
   pointer-events: none;
 }
 
+  /* Código de consulta de mídia responsivo para dispositivos pequenos */
 @media (max-width: 768px) {
   .container {
     padding: 2rem;
@@ -136,6 +139,7 @@ body {
   }
 }
 
+ /* Código de consulta de mídia responsivo para dispositivos pequenos */
 @media (max-width: 500px) {
   .option_images {
     justify-content: space-between;
