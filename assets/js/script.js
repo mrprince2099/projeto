@@ -27,7 +27,6 @@ function handleOptionClick(event) {
   // Redefine os resultados e exibe "Aguarde..."
   botResult.src = botResult.src = "./assets/pedra.png";
   botResult.src = botResult.src = "./assets/papel.png";
-  botResult.src = botResult.src = "./assets/pedra.png";
   userResult.src = botResult.src = "./assets/pedra.png";
   result.textContent = "Wait...";
 
